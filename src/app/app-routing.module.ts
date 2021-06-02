@@ -15,6 +15,10 @@ const routes: Routes = [
     loadChildren: () => import('./pie-chart/pie-chart.module').then(m => m.PieChartModule)
   },
   {
+    path: 'area',
+    loadChildren: () => import('./area-chart/area-chart.module').then(m => m.AreaChartModule)
+  },
+  {
     path: 'scatter',
     loadChildren: () => import('./scatter-chart/scatter-chart.module').then(m => m.ScatterChartModule)
   },
