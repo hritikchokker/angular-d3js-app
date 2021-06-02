@@ -15,6 +15,13 @@
   top: 0;
   z-index: 1;
 }
+.mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  /* overflow: auto; */
+}
 
 span {
   margin: 10px;
